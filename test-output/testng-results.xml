@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Regression Suite" duration-ms="44800" started-at="2021-05-29T08:47:00Z" finished-at="2021-05-29T08:47:44Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="44800" started-at="2021-05-29T08:47:00Z" finished-at="2021-05-29T08:47:44Z">
+      <class name="Test.LoginTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:Test.LoginTest@6d2a209c]" name="setup" is-config="true" duration-ms="21955" started-at="2021-05-29T08:47:00Z" finished-at="2021-05-29T08:47:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="login(java.lang.String, java.lang.String)[pri:0, instance:Test.LoginTest@6d2a209c]" name="login" duration-ms="22664" started-at="2021-05-29T08:47:22Z" finished-at="2021-05-29T08:47:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ashwin@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- Test.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Regression Suite -->
+</testng-results>
